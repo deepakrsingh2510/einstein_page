@@ -1,3 +1,17 @@
-*{
-  color: dodgeblue;
+* {
+  color: navy;
+}
+
+p {
+  color: dodgerblue;
+}
+
+li {
+  color: dodgerblue;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  
 }
