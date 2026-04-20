@@ -1,3 +1,7 @@
+*{
+  color: rgb(3, 56, 117)
+}
+
 
 img {
   width: 200px;
@@ -15,6 +19,20 @@ img {
   
 }
 
+.nav_option {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.nav_option:hover {
+  color: rgb(3, 56, 117);
+  font-size: 30px;
+  font-weight: bold;
+}
+
 section {
   background-color: rgb(226, 219, 219);
   border-radius: 8px;
@@ -22,9 +40,12 @@ section {
   margin: 10px;
 }
 
-.nav_option {
+#contect_us {
+  display: flex;
+  flex-direction: column; 
+  padding: 30px;
+  gap: 20px;
+  font-size: 18px;
   text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-family: Arial, sans-serif;
 }
+
