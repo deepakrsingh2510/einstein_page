@@ -1,17 +1,10 @@
-* {
-  color: navy;
-}
-
-p {
-  color: dodgerblue;
-}
-
-li {
-  color: dodgerblue;
-}
 
 img {
   width: 200px;
-  height: auto;
-  
+  height: auto; 
+}
+
+#nav_bar {
+  background-color: #333;
+  color: white;
 }
