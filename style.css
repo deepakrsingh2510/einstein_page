@@ -39,11 +39,16 @@ section {
   margin: 10px;
 }
 
-#contect_us {
+#contact_us {
   display: flex;
   flex-direction: column; 
   padding: 30px;
   gap: 20px;
   font-size: 18px;
+  text-decoration: none;
+}
+
+p{
+  text-align: center;
   text-decoration: none;
 }
